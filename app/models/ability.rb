@@ -2,7 +2,6 @@
 
 class Ability
   include CanCan::Ability
-
   def initialize(user)
     if user
       if user.kind == 'salesman'
